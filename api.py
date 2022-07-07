@@ -30,3 +30,5 @@ async def predict_proba(inputs: List[InputModelo]):
         response.append(model.predecir()[0])
     # Retorna  la lista con todas las predicciones hechas.
     return response
+
+i
