@@ -91,7 +91,7 @@ def hacer_request_api(average_monthly_hours, satisfaction_level, salary_level):
 
     data_cleaned = str(request_data).replace("'", '"')
 
-    url_api = "http://127.0.0.1:8000/predict"
+    url_api = "https://api-diplomadopython.herokuapp.com/predict"
 
     pred = requests.post(url=url_api, data=data_cleaned).text
 
