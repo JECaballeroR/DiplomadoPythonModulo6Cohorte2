@@ -1,1 +1,1 @@
-web: python api_init.py
+web: uvicorn api:app
